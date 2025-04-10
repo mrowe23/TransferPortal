@@ -1,0 +1,15 @@
+/* Reset all default padding and margins */
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure the body and root take up the full height */
+    width: 100%; /* Ensure the body and root take up the full width */
+    box-sizing: border-box; /* Include padding and border in element's total width/height */
+}
+
+/* Set the background color to inherit from the Material-UI theme */
+body {
+    background-color: inherit;
+    color: inherit;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; /* Use Material-UI's default font */
+}
